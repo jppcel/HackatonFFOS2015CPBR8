@@ -1,0 +1,19 @@
+.text-center{
+	text-align: center;
+}
+.display-none{
+	display: none !important;
+}
+#significado{
+	font-style: italic;
+	font-size: 1rem;
+}
+#palavraPesquisa{
+	font-size: 1.5rem;
+}
+h1{
+	font-size: 2rem;	
+}
+.mlrt-10{
+	margin: 10px 10px 10px 0;
+}

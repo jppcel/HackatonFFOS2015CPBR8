@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicionário Simples - Definições do que você precisa!</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    
+    <div class="row">
+      <div class="large-12 columns text-center">
+        <h1>Dicionário Simples</h1>
+      </div>
+    </div>
+    
+    <div id="busca" class="row">
+      <div class="large-6 large-offset-3 columns text-center">
+        <label>Digite a palavra qual queira o significado:
+        <input type="text" name="palavra" id="palavra" /></label>
+        <small id="erro" class="error display-none"></small>
+        <input type="button" class="button" name="buscar" id="buscar" value="Buscar" onClick="buscar();" />
+      </div>
+    </div>
+
+    
+    <!-- GIF de Carregamento - Para o Usuário ver que está carregando... -->
+    <div id="carregando" class="row display-none">
+      <div class="large-6 large-offset-3 columns text-center">
+        <img src="img/ajax-loader.gif">
+      </div>
+    </div>
+
+    
+    <!-- Resultado do significado -->
+    <div id="resultado" class="row display-none">
+      <div class="large-6 large-offset-3 columns text-center">
+        <h5>Significado da Palavra:</h5>
+        <h4 id="palavraPesquisa"></h4>
+        <h3 id="significado"></h3>
+      </div>
+    </div>
+
+    <!-- Caso tenha vários tipos de nome -->
+    <div id="palavras" class="row display-none">
+      <div class="large-6 large-offset-3 columns text-center">
+        <h5>Existem muitas palavras parecidas, porém nenhuma exatamente dessa forma. Por favor, escolha uma das demais:</h5>
+        <div id="palavrasMostra"></div>
+
+      </div>
+    </div>
+<hr/>
+    <!-- Caso tenha vários tipos de nome -->
+    <footer class="row">
+      <div class="large-6 large-offset-3 columns text-center">
+        <h6>&copy; 2015 Dicionário Simples. O Dicionário simples usa a API do <a href="http://dicionario-aberto.net" target="_blank">Dicionário Aberto</a>, e está licenciada com uma licença <a href="http://br.mozdev.org/MPL/" target="_blank">MPL.</h6>
+      </div>
+    </div>
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/main.js?v1"></script>
+  </body>
+</html>

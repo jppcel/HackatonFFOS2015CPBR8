@@ -1,0 +1,26 @@
+{
+  	"version": "0.1",
+    "name": "Dicionário",
+    "description": "Dicionário com os significados das palavras.",
+    "launch_path": "/index.html",
+  	"icons": {
+    	"16": "/icons/16.png",
+    	"48": "/icons/48.png",
+    	"128": "/icons/128.png"
+  	},
+    "developer": {
+        "name": "João Paulo Polles",
+        "url": "http://joao.co.in"
+    },
+   	"installs_allowed_from": ["*"],
+	"locales": {
+		"br": {
+		    "description": "Dicionário Simples",
+		    "developer": {
+		        "url": "http://joao.co.in"
+		    }
+		}
+	},
+  "default_locale": "en",
+  "type" : "web"
+ }
